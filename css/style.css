@@ -97,3 +97,25 @@ body{
     width:350px;
     box-shadow: 4px 6px 11px 0px rgba(189,189,189,1);
 }
+
+@media only screen and (max-width: 900px){
+    h3, h4{
+        font-size:18px;
+    }
+    .contact{
+        width:308px;
+        left:5%;
+    }
+    p{
+        font-size:14px;
+    }
+    .content{
+        position: absolute;
+        margin-top:20px;
+        left:-100px;
+    }
+    .intro p{
+        width: 405px;
+    }
+
+}
