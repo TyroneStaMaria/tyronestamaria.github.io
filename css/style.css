@@ -124,6 +124,10 @@ body{
     .intro p{
         width: 325px;
     }
+    .project-links{
+        position:relative;
+        left:40px;
+    }
     .project-box img{
         width: 250px;
     }
