@@ -103,7 +103,7 @@ body{
         font-size:18px;
     }
     .contact{
-        width:308px;
+        width:250px;
         left:5%;
     }
     p{
@@ -115,7 +115,7 @@ body{
         left:-100px;
     }
     .intro p{
-        width: 405px;
+        width: 355px;
     }
 
 }
