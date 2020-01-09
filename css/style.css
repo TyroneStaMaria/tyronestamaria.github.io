@@ -3,7 +3,7 @@ html, body{
 }
 body{
     font-family: Roboto, sans-serif;
-    position: relative;
+    xposition: relative;
 }
 .contact{
     position: relative;
@@ -102,14 +102,11 @@ body{
 }
 
 @media only screen and (max-width: 900px){
-    body{
-        width: device-width;
-        overflow-x: hidden;
-    }
     h3, h4{
         font-size:18px;
     }
     .contact{
+        position: relative;
         width:250px;
         left:5%;
     }
@@ -120,7 +117,7 @@ body{
         font-size:14px;
     }
     .content{
-        position: absolute;
+        position: relative;
         margin-top:20px;
         left:-100px;
     }
