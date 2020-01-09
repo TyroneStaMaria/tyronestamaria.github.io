@@ -127,5 +127,8 @@ body{
     .project-box img{
         width: 250px;
     }
+    .projects h4{
+        font-size:16px;
+    }
 
 }
