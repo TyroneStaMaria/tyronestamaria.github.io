@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
  integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <title>About me</title>
@@ -27,9 +28,10 @@
         <div class="content">
             <div class="intro">
                 <h3>ABOUT ME</h3>
-                <p>Hi I’m Tyrone a student from De La Salle University. I am currently taking up Bachelor of Science in Computer Science . Hi I’m Tyrone a student from De La Salle University. I am currently taking up Bachelor of Science in Computer Science . 
-                    <br><br>
-                    Hi I’m Tyrone a student from De La Salle University. I am currently taking up Bachelor of Science in Computer Science . Hi I’m Tyrone a student from De La Salle University. I am currently taking up Bachelor of Science in Computer Science . </p>
+                <p>Hi! I am Tyrone a computer science student in De La Salle University.
+                    I am passionate in developing software that can help the people around me. My current focus is 
+                    developing web applications using javascript.
+                    </p>
                 <!-- <button>Download Resume</button> -->
             
             </div>
@@ -66,7 +68,21 @@
             </div>
         </div>
 
+        <footer>
+            
+           <p class="mail">
+            Contact me <i class="fas fa-envelope"></i>: tyrone.stamaria35@gmail.com
+           </p> 
+           <p class="copyright">     
+           </p>
+        </footer>
 
     </div>
 </body>
+<script>
+    function displayCopyright(){
+        document.querySelector(".copyright").innerHTML = `Copyright© ${new Date().getFullYear()}`;
+    }
+    displayCopyright();
+</script>
 </html>
