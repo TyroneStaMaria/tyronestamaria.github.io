@@ -135,7 +135,7 @@ footer .mail{
     .content{
         position: relative;
         margin-top:20px;
-        left:-80px;
+        left:5%;
     }
     .intro p{
         width: 86%;
