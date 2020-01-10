@@ -154,5 +154,8 @@ footer .mail{
         width:90%;
         left:4%;
     }
+    .mail{
+        width:200px;
+    }
 
 }
