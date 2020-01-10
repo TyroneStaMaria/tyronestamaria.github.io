@@ -124,7 +124,7 @@ footer .mail{
     .contact{
         position: relative;
         width:250px;
-        left:15%;
+        left:8%;
     }
     .contact .name{
         font-size:18px;
@@ -135,7 +135,7 @@ footer .mail{
     .content{
         position: relative;
         margin-top:20px;
-        left:5%;
+        left:-18%;
     }
     .intro p{
         width: 86%;
