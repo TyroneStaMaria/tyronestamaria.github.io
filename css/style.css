@@ -126,6 +126,12 @@ footer .mail{
         width:250px;
         left:15%;
     }
+    .contact img{
+        width:100px;
+    }
+    .clip-circle{
+        clip-path:circle(45px at 50px 48px);
+    }
     .contact .name{
         font-size:18px;
     }
