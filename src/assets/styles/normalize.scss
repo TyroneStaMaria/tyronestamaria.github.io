@@ -1,0 +1,47 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  box-sizing: border-box !important;
+}
+
+h1 {
+  color: $primaryColor;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: $secondaryColor;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $primaryFont;
+}
+
+p {
+  font-family: $secondaryFont;
+  color: $gray2;
+  line-height: 25px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}

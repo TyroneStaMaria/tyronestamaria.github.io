@@ -1,0 +1,34 @@
+.navbar {
+  & {
+    background-color: $primaryColor;
+    width: 100%;
+    color: white;
+    position: sticky;
+    z-index: 9999;
+    top: 0;
+  }
+  .nav-items {
+    padding-top: 18px;
+    padding-bottom: 18px;
+
+    h2 {
+      color: white !important;
+    }
+    ul {
+      list-style-type: none;
+      display: inline-block;
+      li {
+        font-size: 14px;
+        float: left;
+        margin-right: 36px;
+        a {
+          color: white;
+          text-decoration: none;
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  }
+}
