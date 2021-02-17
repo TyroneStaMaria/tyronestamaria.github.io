@@ -12,9 +12,7 @@ const Hero = () => {
   return(
     <Box component="div" py={8}>
       <Container maxWidth="md" className="hero">
-        {/* <Box> */}
-          <Box component = "div" style={{backgroundImage:`url(${tyrone})`}} className="intro-image" alignSelf="center"/>
-        {/* </Box> */}
+        <Box component = "div" style={{backgroundImage:`url(${tyrone})`}} className="intro-image" alignSelf="center"/>
         <h1>Introduction</h1>
         <p>
           {about.intro}

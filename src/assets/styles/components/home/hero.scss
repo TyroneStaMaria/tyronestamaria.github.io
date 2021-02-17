@@ -1,8 +1,6 @@
 $imageSize: 200px;
 .hero {
-  // padding: 48px;
   .intro-image {
-    // align-self: center;
     width: $imageSize;
     height: $imageSize;
     background-repeat: no-repeat;
@@ -10,5 +8,12 @@ $imageSize: 200px;
     border-radius: 100%;
     background-size: $imageSize auto;
     margin: 0 auto;
+  }
+  h1 {
+    padding-top: 36px;
+    padding-bottom: 24px;
+  }
+  p {
+    padding-bottom: 24px;
   }
 }
