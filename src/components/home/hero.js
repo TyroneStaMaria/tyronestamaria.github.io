@@ -3,7 +3,7 @@ import React from "react";
 import about from "../../data/about.json";
 // import Layout from "../layout"
 import tyrone from "../../images/tyrone.jpg";
-import Button from "../button";
+import Button from "../Button";
 
 
 
