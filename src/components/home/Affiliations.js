@@ -2,37 +2,51 @@ import React from "react";
 import { Box, Container, Grid } from "@material-ui/core"; 
 import AffiliationCard from "./AffiliationCard";
 import { graphql, useStaticQuery } from "gatsby";
-// import Img
+
 const Affiliations = () =>{
   const data = useStaticQuery(graphql`
     {
-      orgs: allFile(filter: {relativeDirectory: {eq: "orgs"}}) {
-            nodes {
-              name
-              childImageSharp{
-                fluid(maxWidth: 200){
-                  ...GatsbyImageSharpFluid
-                }
-              }
-            }
+      chi: file(relativePath: {eq: "orgs/chi_mnl.png"}) {
+        name
+        childImageSharp{
+          fluid(maxWidth: 200){
+            ...GatsbyImageSharpFluid
           }
+        }
+      }
+      lscs: file(relativePath: {eq: "orgs/lscs_logo.png"}) {
+        name
+        childImageSharp{
+          fluid(maxWidth: 200){
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+      uxph: file(relativePath: {eq: "orgs/uxph_icon.png"}) {
+        name
+        childImageSharp{
+          fluid(maxWidth: 200){
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
     }
       
   `)
 
   const orgData = [
     {
-      img: data.orgs.nodes[0].childImageSharp.fluid,
+      img: data.chi.childImageSharp.fluid,
       name: "ACM SigChi Manila Chapter",
       position: "Member"
     },
     {
-      img: data.orgs.nodes[1].childImageSharp.fluid,
+      img: data.lscs.childImageSharp.fluid,
       name: "La Salle Computer Society",
       position: "Research and Development"
     },
     {
-      img: data.orgs.nodes[2].childImageSharp.fluid,
+      img: data.uxph.childImageSharp.fluid,
       name: "User Experience Philippines",
       position: "Web and Research"
     }
@@ -41,7 +55,7 @@ const Affiliations = () =>{
   return(
     <Box component="div" py={4} style={{ backgroundColor: `#F5F5F5` }}>
       <Container maxWidth="md">
-        <h1>Affiliations</h1>
+        <h1 style={{ paddingBottom: `24px`, paddingTop:`24px` }}>Affiliations</h1>
         <Grid container spacing={2}>
           {
             orgData.map(({img, name, position}, index) => {
