@@ -1,6 +1,6 @@
 import { Box, Grid } from "@material-ui/core";
 import React from "react";
-import Button from "../button";
+import Button from "../Button";
 import OLES from "../../images/projects/oles.png"
 
 

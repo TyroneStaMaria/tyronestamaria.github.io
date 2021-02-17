@@ -1,6 +1,6 @@
 import { Box, Container } from "@material-ui/core";
 import React from "react";
-import Button from "../button";
+import Button from "../Button";
 import ProjectCard from "./ProjectCard";
 
 
