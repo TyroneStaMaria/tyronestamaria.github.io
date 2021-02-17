@@ -37,35 +37,32 @@ function SEO({ description, lang, meta, title }) {
       titleTemplate={defaultTitle ? `%s | ${defaultTitle}` : null}
       meta={[
         {
-          name: `description`,
+          name: `Tyrone Sta. Maria's personal portfolio`,
           content: metaDescription,
         },
         {
-          property: `og:title`,
+          property: `Tyrone Sta. Maria`,
           content: title,
         },
         {
-          property: `og:description`,
+          property: `Tyrone Sta. Maria's personal portfolio`,
           content: metaDescription,
         },
         {
-          property: `og:type`,
+          property: `https://tyronegithub.github.io/`,
           content: `website`,
         },
+
         {
-          name: `twitter:card`,
-          content: `summary`,
-        },
-        {
-          name: `twitter:creator`,
+          name: `twitter:@tyronestamaria`,
           content: site.siteMetadata?.author || ``,
         },
         {
-          name: `twitter:title`,
+          name: `twitter:@tyronestamaria`,
           content: title,
         },
         {
-          name: `twitter:description`,
+          name: `twitter:@tyronestamaria`,
           content: metaDescription,
         },
       ].concat(meta)}
