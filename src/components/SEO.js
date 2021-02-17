@@ -37,15 +37,15 @@ function SEO({ description, lang, meta, title }) {
       titleTemplate={defaultTitle ? `%s | ${defaultTitle}` : null}
       meta={[
         {
-          name: `Tyrone Sta. Maria's personal portfolio`,
+          name: `Tyrone Justin Sta. Maria's personal portfolio`,
           content: metaDescription,
         },
         {
-          property: `Tyrone Sta. Maria`,
+          property: `Tyrone Justin Sta. Maria`,
           content: title,
         },
         {
-          property: `Tyrone Sta. Maria's personal portfolio`,
+          property: `Tyrone Justin Sta. Maria's personal portfolio`,
           content: metaDescription,
         },
         {

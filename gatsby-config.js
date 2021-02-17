@@ -21,7 +21,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Tyrone Sta. Maria`,
+        name: `Tyrone Justin Sta. Maria`,
         short_name: `Tyrone`,
         start_url: `/`,
         background_color: `#663399`,
