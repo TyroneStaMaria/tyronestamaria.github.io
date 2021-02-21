@@ -1,10 +1,10 @@
 import { Box, Container, Grid } from "@material-ui/core";
+import useMediaQuery from "@material-ui/core/useMediaQuery";
 import FacebookIcon from '@material-ui/icons/Facebook';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import TwitterIcon from '@material-ui/icons/Twitter';
 import React from "react";
-import { useMediaQuery } from "react-responsive";
 import about from "../../data/about.json";
 // import Layout from "../layout"
 import tyrone from "../../images/tyrone.jpg";
@@ -13,7 +13,7 @@ import Button from "../Button";
 
 
 const Hero = () => {
-  const isBreakpoint = useMediaQuery({query: '(max-width: 405px)'});
+  const isBreakpoint = useMediaQuery(`(max-width: 405px)`);
   
   return(
     <Box component="div" py={8}>

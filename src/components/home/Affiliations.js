@@ -1,7 +1,7 @@
 import { Box, Container, Grid } from "@material-ui/core";
+import useMediaQuery from "@material-ui/core/useMediaQuery";
 import { graphql, useStaticQuery } from "gatsby";
 import React from "react";
-import { useMediaQuery } from "react-responsive";
 import AffiliationCard from "./AffiliationCard";
 
 const Affiliations = () =>{
@@ -39,7 +39,7 @@ const Affiliations = () =>{
     }
   ]
 
-  const isBreakpoint = useMediaQuery({query: '(max-width: 920px)'})
+  const isBreakpoint = useMediaQuery(`(max-width: 920px)`)
 
   return(
     <Box component="div" py={4} style={{ backgroundColor: `#F5F5F5` }}>

@@ -1,12 +1,12 @@
 import { Box, Container, Grid } from "@material-ui/core";
+import useMediaQuery from "@material-ui/core/useMediaQuery";
 import CloseIcon from '@material-ui/icons/Close';
 import MenuIcon from '@material-ui/icons/Menu';
 import React, { useState } from "react";
-import { useMediaQuery } from "react-responsive";
 
 
 const Navbar = () =>{
-  const isBreakpoint = useMediaQuery({query: '(max-width: 565px)'});
+  const isBreakpoint = useMediaQuery(`(max-width: 565px)`);
 
   const [hideNav, setHideNav] = useState(true);
 

@@ -5,6 +5,10 @@
     }
 
     .project-card {
+      .over {
+        color: red !important;
+        background-color: green !important;
+      }
       & {
         padding-bottom: 64px;
       }
