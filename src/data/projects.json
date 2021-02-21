@@ -1,32 +1,32 @@
 [
   {
     "name": "UXPH Conference 2020",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "link": ""
+    "description": "The UXPH CONF, now in its 5th year, is a 2-day online event filled with talks and workshops for Experience Designers, enthusiasts, and problem-solvers. This year, we look back at how designers adapted and thrived when the way we work and go about life was transformed. Looking to the future, what can we learn from their experience? How can we help our teams navigate the constant change in the world as we design products and services that have a lasting impact?",
+    "link": "https://2020.uxph.org/"
   },
   {
     "name": "ARW 2020 Website",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "description": "Annual Recruitment Week (ARW) 2020 is a week-long University-wide event. Wherein the Council of Student Organizations (CSO) accredited organizations are given the chance to attract and recruit old and new members from the Lasallian community. It serves as a platform for these organizations to showcase who they are and what they can provide to members through their planned events.",
     "link": ""
   },
   {
     "name": "CHI MNL Website",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "link": ""
+    "description": "The Manila ACM SIGCHI Chapter (also known as CHI MNL) is an internationally recognized professional and research community in the Philippines, specializing in the field of human-computer interaction (HCI) research. As a local chapter of the Association for Computing Machinery Special Interest Group on Computer Human Interaction (ACM SIGCHI), we provide venues for enriching discourse on all aspects of HCI research and practice, as well as access to both local and international HCI experts and organizations.",
+    "link": "https://sigchimnl.org/"
   },
   {
     "name": "UXPH 2020",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "link": ""
+    "description": "UXPH (User Experience Philippines) is a Filipino non-profit organization that hosts the largest network of design professionals, enthusiasts, and students in the Philippines. Since 2012, we have been building towards a more mature, collaborative, and design-driven country through hosting online and offline community initiatives, conferences, and programs within local design and technology communities.",
+    "link": "https://www.uxph.org/"
   },
   {
     "name": "LEAD Election System",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "description": "A web-based online voting system developed to ease the current pen and paper election process providing convenience for the voters and quicker computations of election results. ",
     "link": ""
   },
   {
     "name": "Online LLEAP Evaluation System",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "description": "A web application designed to provide an easier and quicker feedback system for the LLEAP organizations' members and officers. ",
     "link": ""
   }
   
