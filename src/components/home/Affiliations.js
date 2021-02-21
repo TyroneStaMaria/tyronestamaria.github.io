@@ -24,7 +24,7 @@ const Affiliations = () =>{
   const orgData = [
     {
       img: data.orgs.nodes[0].childImageSharp.fluid,
-      name: "Manila ACM SigChi Chapter",
+      name: "Manila ACM SIGCHI Chapter",
       position: "Member"
     },
     {

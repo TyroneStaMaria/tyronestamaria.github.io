@@ -6,8 +6,8 @@ import ResearchCard from "./ResearchCard";
 const ResearchPage = () => {
 
   return(
-    <Box component="div" py={8}>
-      <Container maxWidth="md" className="hero" style={{ paddingBottom: `64px` }} >
+    <Box component="div" py={8} >
+      <Container maxWidth="md" className="hero" style={{ paddingBottom: `184px` }} >
         <h1 data-sal="slide-right" data-sal-duration="1000">Research</h1>
         { 
           research.map(({title, abstract, website}, index)=>{
