@@ -1,7 +1,7 @@
 import React from "react";
 import Layout from "../components/Layout";
-import SEO from "../components/SEO";
 import ResearchPage from "../components/research/ResearchPage";
+import SEO from "../components/SEO";
 
 const Research = () => (
   <Layout>

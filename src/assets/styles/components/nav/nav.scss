@@ -9,10 +9,16 @@
   margin: 0;
   z-index: 999;
   opacity: 0.5;
+  transition: ease-out all 0.5s;
+
+  &.hide {
+    opacity: 0;
+    z-index: -999;
+  }
 }
-.hidden {
-  display: none !important;
-}
+// .hidden {
+//   display: none !important;
+// }
 
 .navbar {
   & {
@@ -52,17 +58,21 @@
     .mobile-nav {
       & {
         background-color: $secondaryColor;
-        padding: 0;
-        margin: 0;
         position: absolute;
         top: 0;
         left: 0;
         height: 100vh;
-        width: 40%;
+        max-width: 300px;
+        width: 100%;
         display: block;
         transition: ease-out all 0.5s;
+        z-index: 9999;
         overflow-y: scroll;
-        // z-index: 999;
+        opacity: 1;
+      }
+      &.hide {
+        left: -120%;
+        opacity: 0;
       }
       ul {
         list-style-type: none;

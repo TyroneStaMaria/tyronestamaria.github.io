@@ -16,4 +16,17 @@ $imageSize: 200px;
   p {
     padding-bottom: 24px;
   }
+  .socmed {
+    a {
+      * {
+        color: $gray1;
+        font-size: 32px;
+      }
+      &:hover {
+        * {
+          color: $gray2;
+        }
+      }
+    }
+  }
 }

@@ -1,8 +1,8 @@
-import React from "react";
-import { Box, Container, Grid } from "@material-ui/core"; 
-import AffiliationCard from "./AffiliationCard";
+import { Box, Container, Grid } from "@material-ui/core";
 import { graphql, useStaticQuery } from "gatsby";
+import React from "react";
 import { useMediaQuery } from "react-responsive";
+import AffiliationCard from "./AffiliationCard";
 
 const Affiliations = () =>{
   const data = useStaticQuery(graphql`
@@ -43,13 +43,13 @@ const Affiliations = () =>{
 
   return(
     <Box component="div" py={4} style={{ backgroundColor: `#F5F5F5` }}>
-      <Container maxWidth="md">
-        <h1 style={{ paddingBottom: `24px`, paddingTop:`24px` }}>Affiliations</h1>
+      <Container maxWidth="md" style={{ paddingBottom: `64px` }} >
+        <h1 style={{ paddingBottom: `24px`, paddingTop:`24px` }} data-sal="slide-right" data-sal-duration="1000">Affiliations</h1>
         <Grid container spacing={2} direction={!isBreakpoint ? "row" : "column"} alignItems="center">
           {
             orgData.map(({img, name, position}, index) => {
               return(
-              <Grid item xs={4}>
+              <Grid item xs={4} data-sal="fade" data-sal-duration="1500" key={index}>
                 <AffiliationCard img={img} orgName={name} position={position}/>
               </Grid>
               )

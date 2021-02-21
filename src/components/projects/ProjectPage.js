@@ -1,8 +1,8 @@
 import { Box, Container } from "@material-ui/core";
-import React from "react";
-import ProjectCard from "./ProjectCard";
 import { graphql, useStaticQuery } from "gatsby";
+import React from "react";
 import projects from "../../data/projects.json";
+import ProjectCard from "./ProjectCard";
 
 
 const ProjectPage = () => {
@@ -32,12 +32,12 @@ const ProjectPage = () => {
   return(
     <Box component="div" py={8}>
       <Container maxWidth="md" className="project-page">
-        <h1>Projects</h1>
+        <h1 data-sal="slide-right" data-sal-duration="1000">Projects</h1>
         <Box component="div" alignItems="center" className="project-container">
           { 
             projectData.map(({name, description, link, img}, index) => {
               return(
-                <ProjectCard img={img} name={name} description={description} link={link} order={index} />
+                <ProjectCard img={img} name={name} description={description} link={link} order={index} key={index}/>
               )
             })
           }

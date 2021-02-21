@@ -1,0 +1,16 @@
+.footer {
+  & {
+    background-color: $primaryColor;
+    // max-height: 200px;
+    // height: 150px;
+  }
+
+  p {
+    color: white !important;
+    padding-top: 36px;
+    padding-bottom: 36px;
+    text-align: center;
+    font-weight: 300;
+    font-size: 14px;
+  }
+}

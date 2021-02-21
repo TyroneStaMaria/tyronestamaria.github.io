@@ -1,7 +1,7 @@
-import React, { useState } from "react";
 import { Box, Container, Grid } from "@material-ui/core";
-import MenuIcon from '@material-ui/icons/Menu';
 import CloseIcon from '@material-ui/icons/Close';
+import MenuIcon from '@material-ui/icons/Menu';
+import React, { useState } from "react";
 import { useMediaQuery } from "react-responsive";
 
 
@@ -12,7 +12,10 @@ const Navbar = () =>{
 
   return(
     <>
-      <Box component="div" className={`overlay ${ hideNav ? "hidden" : ""}`}/>
+      <Box component="div" className={`overlay ${ hideNav ? "hide" : ""}`} onClick = {()=> {
+          setHideNav(!hideNav);
+        }}
+      />
       <Box component="nav" className="navbar">
         <Container maxWidth="md" className = "nav-items">
           {!isBreakpoint ? (
@@ -38,7 +41,7 @@ const Navbar = () =>{
                 <MenuIcon style={{ fontSize: `32px` }} onClick = {()=> {
                   setHideNav(!hideNav);
                 }} />
-                <Box component="div" className={`mobile-nav ${ hideNav ? "hidden" : ""}`}>
+                <Box component="div" className={`mobile-nav ${ hideNav ? "hide" : ""}`}>
                   <Box component="div">
                     <CloseIcon style={{ fontSize: `32px`, float:`right`, padding:`12px` }} onClick = {()=> {
                       setHideNav(!hideNav);

@@ -1,17 +1,17 @@
 import { Box, Container } from "@material-ui/core";
 import React from "react";
-import ResearchCard from "./ResearchCard";
 import research from "../../data/research.json";
+import ResearchCard from "./ResearchCard";
 
 const ResearchPage = () => {
 
   return(
     <Box component="div" py={8}>
-      <Container maxWidth="md" className="hero">
-        <h1>Research</h1>
+      <Container maxWidth="md" className="hero" style={{ paddingBottom: `64px` }} >
+        <h1 data-sal="slide-right" data-sal-duration="1000">Research</h1>
         { 
           research.map(({title, abstract, website}, index)=>{
-            return( <ResearchCard title={title} abstract={abstract} website={website} /> )
+            return( <ResearchCard title={title} abstract={abstract} website={website} key={index}/> )
           }) 
         }
       </Container>

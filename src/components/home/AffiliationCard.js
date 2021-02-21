@@ -1,6 +1,6 @@
-import React from "react";
-import { Box, Container } from "@material-ui/core"; 
+import { Box } from "@material-ui/core";
 import Img from "gatsby-image";
+import React from "react";
 
 const AffiliationCard = ({ img, orgName, position }) =>{
   return(
