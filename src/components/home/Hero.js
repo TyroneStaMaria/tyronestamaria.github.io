@@ -10,6 +10,8 @@ import about from "../../data/about.json";
 import tyrone from "../../images/tyrone.jpg";
 import Button from "../Button";
 
+import file from "../../files/tyrone_resume.pdf";
+
 
 
 const Hero = () => {
@@ -25,7 +27,7 @@ const Hero = () => {
         </p>
         <Grid container spacing={3} justify={ !isBreakpoint ? "flex-start" : "center" } >
           <Grid item data-sal="fade" data-sal-duration="1500">
-            <Button link="#">Download Resume</Button>
+            <Button link={file}>Download Resume</Button>
           </Grid>
           <Grid item data-sal="fade" data-sal-duration="1500">
             <Grid container spacing={2} className="socmed">
